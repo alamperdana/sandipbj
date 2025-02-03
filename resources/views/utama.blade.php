@@ -14,24 +14,17 @@
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,800,700italic' rel='stylesheet' type='text/css'>
 
 <!--MAIN STYLE-->
-<link href="/public/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-<link href="/public/assets/css/main.css" rel="stylesheet" type="text/css">
-<link href="/public/assets/css/style.css" rel="stylesheet" type="text/css">
-<link href="/public/assets/css/responsive.css" rel="stylesheet" type="text/css">
-<link href="/public/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-<script type="text/javascript" src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">
+<link href="{{ asset('assets/css/main.css') }}" rel="stylesheet" type="text/css">
+<link href="{{ asset('assets/css/style.css') }}" rel="stylesheet" type="text/css">
+<link href="{{ asset('assets/css/responsive.css') }}" rel="stylesheet" type="text/css">
+<link href="{{ asset('assets/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.min.js"></script>
 
 
 <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
-<link rel="stylesheet" type="text/css" href="/public/assets/rs-plugin/css/settings.css" media="screen" />
-
-<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
+<link rel="stylesheet" type="text/css" href="{{ asset('assets/rs-plugin/css/settings.css') }}" media="screen" />
 
 </head>
 <body>
@@ -48,18 +41,12 @@
           <p><i class=" ion-ios-clock-outline"></i> Work Hours : Monday (07.15 AM - 16.15 PM)- Friday (07.15 AM- 11.00 AM)</p>
         </div>
         
-        <!--
-        <div class="call">
-          <p><i class="ion-headphone"></i> (0741) 444914</p>
-        </div>
-        -->
-        
       </div>
     </div>
     
     <!-- Logo -->
     <div class="container">
-      <div class="logo"> <a href="http://sandipbj.jambikota.go.id/public/"><img src="/public/assets/img/logo.png" alt=""></a> </div>
+      <div class="logo"> <a href="http://sandipbj.jambikota.go.id/public/"><img src="{{ asset('assets/img/logo.png') }}" alt=""></a> </div>
       
       <!-- Nav -->
       <nav>
@@ -79,7 +66,7 @@
         <ul>
           
           <!-- Slider 1 -->
-          <li data-transition="fade" data-slotamount="7"> <img src="/public/assets/img/slides/slide-1.png" data-bgposition="center center" alt="" /> 
+          <li data-transition="fade" data-slotamount="7"> <img src="{{ asset('assets/img/slides/slide-1.png') }}" data-bgposition="center center" alt="" /> 
             
             <!-- Layer -->
             <div class="tp-caption sft font-montserrat tp-resizeme" 
@@ -129,19 +116,8 @@
                   data-captionhidden="on"> <a href="{{url('home/pengajuan')}}" class="btn">Pengajuan Akun</a> &nbsp; &nbsp; &nbsp; &nbsp; <!--<a href="https://sireva.jambikota.go.id/" class="btn btn-1">Verifikasi Penyedia</a> </div>-->
           </li>
 
-          <!--
-          <div class="actions">
-            <a href="{{url('home/pengajuan')}}" class="btn-services">Pengajuan Akun</a>
-            <a href="#services" class="btn-services">Pengajuan Akun</a>
-              <a href="{{url('login')}}"class="btn-services">Login Admin</a>
-              <a href="#services" class="btn-services">Admin Login</a>
-                <a href="https://drive.google.com/drive/folders/15om5sc002e4FKcPqCSZ_uWiI5UVW853F?usp=sharing" class="btn-services">Petunjuk Teknis</a>
-          </div>
-        -->
-          
-          
           <!-- Slider 2 -->
-          <li data-transition="fade" data-slotamount="7"> <img src="/public/assets/img/slides/slide-2.png" data-bgposition="center center" alt="" /> 
+          <li data-transition="fade" data-slotamount="7"> <img src="{{ asset('assets/img/slides/slide-2.png') }}" data-bgposition="center center" alt="" /> 
             
             <!-- Layer -->
             <div class="tp-caption sft font-montserrat tp-resizeme" 
@@ -191,7 +167,7 @@
           </li>
           
           <!-- Slider 3 -->
-          <li data-transition="fade" data-slotamount="7"> <img src="/public/assets/img/slides/slide-3.png" data-bgposition="center center" alt="" /> 
+          <li data-transition="fade" data-slotamount="7"> <img src="{{ asset('assets/img/slides/slide-3.png') }}" data-bgposition="center center" alt="" /> 
             
             <!-- Layer -->
             <div class="tp-caption sft font-montserrat tp-resizeme" 
@@ -248,49 +224,19 @@
   <!--======= Footer =========-->
   <footer>
     <div class="container"> 
-      
-      <!-- Footer Link -->
-      
-      <!--
-      <ul class="foot-link">
-        <li><a href="#.">Home </a></li>
-        <li><a href="#."> HISTORY </a></li>
-        <li><a href="#."> Gallery </a></li>
-        <li><a href="#."> Events </a></li>
-        <li><a href="#."> news </a></li>
-        <li><a href="#."> Contact</a></li>
-      </ul>
-      -->
-
-      <!-- Footer Logo -->
-      <!--
-      <div class="foot-logo"> <img src="../../assets/img/logo-footer.png" alt=""> </div>
-      -->
 
       <!-- Footer Logo -->
       <div class="under-footer">
         <ul class="con-info">
           <li>
-            <p> <img src="/public/assets/img/logo-footer.png">
+            <p> <img src="{{ asset('assets/img/logo-footer.png') }}">
               <i class="fa fa-map-marker"></i>PBJAP, Jl. Jend. Basuki Rahmat Kota Baru Kota Jambi, Jambi 36129</p>
           </li>
-          
-          <!--
-          <li>
-            <p> <i class="fa fa-phone"></i>(0741) 444914</p>
-          </li>
-          -->
-          
           <li>
             <p> <i class="fa fa-envelope"></i>ulpjambikota@gmail.com</p>
           </li>
         </ul>
         <ul class="social-link">
-          <!--
-          <li><a href="#.">Facebook </a></li>
-          <li><a href="#."> Twitter </a></li>
-          <li><a href="#."> Linkedin </a></li>
-          -->
           <li><a href="https://www.instagram.com/bagianpbjap_jambikota/"> instagram </a></li>
         </ul>
       </div>
@@ -300,18 +246,18 @@
 </div>
 <!-- Wrap End --> 
 
-<script src="/public/assets/js/jquery-1.11.0.min.js"></script> 
-<script src="/public/assets/js/bootstrap.min.js"></script> 
-<script src="/public/assets/js/own-menu.js"></script> 
-<script src="/public/assets/js/owl.carousel.min.js"></script> 
-<script src="/public/assets/js/jquery.stellar.min.js"></script> 
-<script src="/public/assets/js/smooth-scroll.js"></script> 
-<script src="/public/assets/js/jquery.prettyPhoto.js"></script> 
+<script src="{{ asset('assets/js/jquery-1.11.0.min.js') }}"></script> 
+<script src="{{ asset('assets/js/bootstrap.min.js') }}"></script> 
+<script src="{{ asset('assets/js/own-menu.js') }}"></script> 
+<script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script> 
+<script src="{{ asset('assets/js/jquery.stellar.min.js') }}"></script> 
+<script src="{{ asset('assets/js/smooth-scroll.js') }}"></script> 
+<script src="{{ asset('assets/js/jquery.prettyPhoto.js') }}"></script> 
 
 <!-- SLIDER REVOLUTION 4.x SCRIPTS  --> 
-<script type="text/javascript" src="/public/assets/rs-plugin/js/jquery.themepunch.tools.min.js"></script> 
-<script type="text/javascript" src="/public/assets/rs-plugin/js/jquery.themepunch.revolution.min.js"></script> 
-<script src="/public/assets/js/main.js"></script>
+<script type="text/javascript" src="{{ asset('assets/rs-plugin/js/jquery.themepunch.tools.min.js') }}"></script> 
+<script type="text/javascript" src="{{ asset('assets/rs-plugin/js/jquery.themepunch.revolution.min.js') }}"></script> 
+<script src="{{ asset('assets/js/main.js') }}"></script>
 <script type="text/javascript">
 /*-----------------------------------------------------------------------------------*/
 /*  SLIDER REVOLUTION
